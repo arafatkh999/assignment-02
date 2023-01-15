@@ -375,7 +375,7 @@ body{
      /*#############
       Tablet Device 
       ##############*/
-      @media only screen and (max-width:992px) {
+      @media only screen and (min-width:577px) and (max-width:992px) {
          .hero-img{
             padding: 10px 50px;
          }
