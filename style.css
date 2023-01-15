@@ -1,0 +1,285 @@
+/*##########
+ Common Styles 
+ ###########*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn{
+    width: 130px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.primary-color{
+    color: #727272;
+}
+.seconday-color{
+    color: #FF900E;
+}
+/*#############
+ Header Section Styles 
+ #############*/
+ .header{
+    height: fit-content;
+    background-color: rgba(255, 144, 14, 0.1);
+
+ }
+ .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+ .company-name{
+    font-weight: 700;
+    font-size: 35px;
+ }
+ .nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+ }
+
+ .hero-text{
+    text-align: center;
+    padding: 100px 200px;
+ }
+ .hero-title{
+    font-weight: 700;
+    font-size: 44px;
+ }
+ .hero-description{
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .hero-img{
+    max-width: 100%;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-bottom: 30px;
+
+ }
+
+
+ /*#################
+  Qucik List Section  
+  ##################*/
+  .quick-list{
+    display: flex;
+    padding-left: 280px;
+    padding-right: 280px;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+  }
+  .qucik-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .qucik-list-img>img{
+    width: 242px;
+    height: 242px;
+  }
+
+  .quick-list-text h2{
+    font-size: 30px;
+    padding-bottom: 24px;
+  }
+  .quick-list-text p{
+    padding-bottom: 30px;
+  }
+
+  /*################ 
+  Features Section Styles  
+  ##################*/
+  .features-section{
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   padding-left: 200px;
+   padding-right: 200px;
+  }
+  .features-list h2{
+   font-weight: 700;
+   font-size: 45px;
+   border-left: 5px solid #FF900E;
+   padding-left: 10px;
+  }
+  .features-list>p{
+   padding-top: 25px;
+   padding-bottom: 25px;
+  }
+  .features-list ul{
+   list-style: none;
+  }
+  .list-info{
+   padding: 25px;
+   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+   border-radius: 8px;
+  }
+  .list-info h4{
+   padding-bottom: 10px;
+   font-size: 20px;
+  }
+
+  .features-img{
+   width: 500px;
+  }
+  .bold-button{
+   position: relative;
+   top: -70px;
+   left: -30px;
+  }
+  .bg-btn{
+   width: 200px;
+   height: 100px;
+   background: #FF900E;
+   border-radius: 8px;
+   color: #FFFFFF;
+   border: none;
+  }
+  .bg-text{
+   font-weight: 700;
+   font-size: 35px;
+  }
+
+  /*##############
+   Some Facts Styles 
+   ###############*/
+   .some-facts{
+      margin-top: 100px;
+      margin-left: 200px;
+      margin-right: 200px ;
+   }
+   .some-facts h4{
+      font-size: 30px;
+      padding-bottom: 15px;
+      
+   }
+   .some-facts-box ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+   }
+   .some-facts ul li{
+      height: 200px;
+      width: 200px;
+      border: 1px solid #FF900E;
+      border-radius: 8px;
+      text-align: center;
+      padding: 45px 35px;
+   }
+   
+
+   .some-facts ul li h4{
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+   .some-facts ul li:hover{
+      transition:  3s ease-in-out; 
+      transform: rotate(360deg);
+   }
+  
+
+   /*###################
+    Sponsors Section Styles  
+    ###################*/
+    .sponsors-section{
+      margin-top: 150px;
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+    .sponsors-text{
+      text-align: center;
+
+    }
+    .sponsors-text h4{
+      font-size: 30px;
+      padding-bottom: 15px;
+    }
+    .sponsors-icons{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 75px;
+  
+    }
+    .sponsors-icons img{
+      width: 90px;
+      height: 30px;
+    }
+
+    /*##############
+     Contact Us Section Styles 
+     ###############*/
+     .contact-us{
+      display: flex;
+      gap: 50px;
+      margin: 100px 200px;
+     }
+     .contact-us-left{
+      width: 40%;
+      margin: auto;
+     }
+     .contact-us-left h4{
+      font-size: 35px;
+      padding-bottom: 15px;
+
+     }
+     .contact-us-left ul{
+      list-style: none;
+     }
+     .contact-us-left ul li{
+      margin-bottom: 10px;
+     }
+     .fa-solid{
+      margin-right: 5px;
+     }
+
+     .contact-us-right{
+      width: 40%;
+      margin: auto;
+     }
+     .contact-us-right h4{
+      font-size: 30px;
+      padding-bottom: 15px;
+     }
+     
+     .form{
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+     }
+     input{
+      height: 50px;
+     }
+
+    /*############
+     Footer section Styles 
+     #############*/
+     .footer{
+      height: 100px;
+      margin: 100px 200px;
+      background: #FFF4E7;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     
