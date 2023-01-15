@@ -372,4 +372,59 @@ body{
 
          
        }
-     
+     /*#############
+      Tablet Device 
+      ##############*/
+      @media only screen and (max-width:992px) {
+         .hero-img{
+            padding: 10px 50px;
+         }
+         .quick-list{
+            flex-direction: column;
+            height: fit-content;
+            padding: 10px 0;
+         }
+         .quick-list-text{
+            text-align: center;
+         }
+         .features-section{
+            flex-direction: column;
+            padding: 10px 50px;
+         }
+         .features-img{
+            width: 100%;
+            padding: 10px 30px;
+         }
+         .bold-button{
+            position: static;
+            width: 50%;
+            margin: auto;
+            padding: 10px 50px;
+         }
+         .some-facts{
+            margin: 10px 0;
+            text-align: center;
+         }
+         .some-facts-box ul{
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 25px 50px;
+         }
+         .sponsors-section{
+            padding: 10px 50px;
+         }
+         .contact-us{
+            margin: 30px 50px;
+         }
+         .contact-us-left{
+            width: 45%;
+            margin: auto;
+         }
+         .footer{
+            height: 50px;
+            margin: 10px 50px;
+         }
+
+         
+      }
